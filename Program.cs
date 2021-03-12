@@ -15,7 +15,7 @@ namespace Cebolinha
            diga = Convert.ToString(Console.ReadLine());
            Console.WriteLine();
            Console.ForegroundColor = ConsoleColor.Green;
-           Console.WriteLine($"{diga.Replace("r", "l")}");
+           Console.WriteLine($"{diga.Replace("r", "l").Replace("rr", "l").Replace("R", "l").Replace("RR", "L").Replace("Rr", "L").Replace("rR", "l")}");
            Console.ResetColor();
              
              
